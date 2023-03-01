@@ -1,8 +1,14 @@
 ﻿﻿Console.WriteLine ("Введите ваше первое число");
 int number1 = Convert.ToInt32(Console.ReadLine());
 ﻿Console.WriteLine ("Введите ваше второе число");
-int number2 = Convert.ToInt32(Console.ReadLine())
+int number2 = Convert.ToInt32(Console.ReadLine());
 
+if(number1 == number2 * number2)
+{
+ Console.WriteLine("Первое число является квадратом второго");
+}
+else
+{
+Console.WriteLine("Первое число НЕ является квадратом второго");
+}
 
-string second = "результат";
-Console.WriteLine("Your {1} is  {0}", result, second);
