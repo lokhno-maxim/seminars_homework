@@ -1,6 +1,4 @@
 ﻿
-int number = 0;
-Console.WriteLine("Введите число");
-Console.ReadLine(number);
+int number = 4;
 number = number * number;
 Console.WriteLine(number);
