@@ -1,23 +1,36 @@
 ﻿﻿Console.WriteLine ("Введите ваше число");
 int number1 = Convert.ToInt32(Console.ReadLine());
 
-if(number1 == 1)
- {Console.WriteLine("1 это понедельник");}
+switch(number1)
+{
+  case 1:
+   WriteLine("Понедельник")
+   break;
+  
+  case 2:
+   WriteLine("Вторник")
+  break;
+  
+  case 3:
+   WriteLine("Среда")
+  break;
 
-if(number1 == 2)
- {Console.WriteLine("2 это вторник");}
+  case 4:
+   WriteLine("Четверг")
+  break;
 
- if(number1 == 3)
- {Console.WriteLine("3 это среда");}
+  case 5:
+   WriteLine("Пятница")
+  break;
 
- if(number1 == 4)
- {Console.WriteLine("4 это четверг");}
+  case 6:
+   WriteLine("Суббота")
+  break;
 
- if(number1 == 5)
- {Console.WriteLine("5 это пятница");}
+  case 7:
+   WriteLine("Воскресенье")
+  break;
 
- if(number1 == 6)
- {Console.WriteLine("6 это суббота");}
+  
 
- if(number1 == 7)
- {Console.WriteLine("7 это воскресенье");}
+}
