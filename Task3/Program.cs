@@ -1,36 +1,37 @@
 ﻿﻿Console.WriteLine ("Введите ваше число");
 int number1 = Convert.ToInt32(Console.ReadLine());
 
-switch(number1)
+switch (number1) 
 {
   case 1:
-   WriteLine("Понедельник")
+   Console.WriteLine("Понедельник");
    break;
   
   case 2:
-   WriteLine("Вторник")
+   Console.WriteLine("Вторник");
   break;
   
   case 3:
-   WriteLine("Среда")
+   Console.WriteLine("Среда");
   break;
 
   case 4:
-   WriteLine("Четверг")
+   Console.WriteLine("Четверг");
   break;
 
   case 5:
-   WriteLine("Пятница")
+   Console.WriteLine("Пятница");
   break;
 
   case 6:
-   WriteLine("Суббота")
+   Console.WriteLine("Суббота");
   break;
 
   case 7:
-   WriteLine("Воскресенье")
+   Console.WriteLine("Воскресенье");
   break;
 
-  
-
+  default:
+   Console.WriteLine("Incorrect version");
+break;
 }
