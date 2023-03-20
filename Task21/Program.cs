@@ -2,11 +2,15 @@
 int x1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("Введите координаты y первой точки");
 int y1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine ("Введите координаты z первой точки");
+int z1 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine ("Введите координаты x второй точки");
 int x2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("Введите координаты y второй точки");
 int y2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine ("Введите координаты z первой точки");
+int z2 = Convert.ToInt32(Console.ReadLine());
 
-float result = (x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2);
+float result = (x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2) + (z1 - z2) * (z1 - z2);
 Console.WriteLine(MathF.Sqrt(result));
