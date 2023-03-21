@@ -16,7 +16,7 @@ int positive_sum = 0;
     else positive_sum = positive_sum + array[i];
  }
 Console.Write("[ ");
-for (int i = 0; i < count; i++)
+foreach (int el in array)
 {
     Console.Write(array[i] + ", ");
 }
