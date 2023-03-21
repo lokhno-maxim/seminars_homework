@@ -6,11 +6,11 @@ int i;
   if (number > 9999 && number < 100000)  
     {
       for (i = 0 ; i < array.Length ; i ++)
-     {
-      work_number = number % 10;
-      array[i] = work_number;
-      number /= 10;
-     }
+      {
+       work_number = number % 10;
+       array[i] = work_number;
+       number /= 10;
+      }
      if (array[0] == array[4] && array[1] == array[3]) Console.WriteLine("Полиндром");
      else Console.WriteLine("НЕТ");
     }

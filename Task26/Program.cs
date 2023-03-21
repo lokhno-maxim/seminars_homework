@@ -6,8 +6,8 @@
 
 int SumNums(int number)
 {
-    int i = 1;
-    while (number /10!=0);
+    int i = 0;
+    while (number > 0)
     {
         number = number / 10;
         i = i + 1 ;
